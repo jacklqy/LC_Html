@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 文档的头部 -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 定义网站关键字，用于搜索引擎提取 -->
+    <meta name="keywords" content="朝夕教育，在线教育">
+    <!-- 定义网站描述 -->
+    <meta name="description" content="编程 教程">
+    <!-- <link rel="stylesheet" type="text/css" href="mystyle.css"> -->
+    <title>HTML</title>
+
+    <style type="text/css">
+        /* body {
+            background-color:yellow
+        } */
+        /* p {
+            color:blue
+        } */
+    </style>
+</head>
+<script>
+    // js代码区域
+</script>
+<!-- 使用src属性外链一个js文件 -->
+<script src=""></script>
+
+<body>
+    这不是一个标题。<br>哈哈哈哈
+    <!-- 这不是一个标题。 -->
+    <hr />
+    <h1>这是一个标题。h1</h1>
+    <h2>这是一个标题。</h2>
+    <h3>这是一个标题。</h3>
+    <h4>这是一个标题。</h4>
+    <h5>这是一个标题。</h5>
+    <h6>这是一个标题。</h6>
+
+    <p>段落标签</p>哈哈哈哈哈
+
+    <b>这不是一个标题。但是加粗了</b>
+    <em>em标签</em>
+    <br>
+    <a href="">超链接</a>
+
+    <a href="https://www.baidu.com/">百度1</a>
+    <a target="_blank" href="https://www.baidu.com/">百度2</a>
+
+    <br>
+    <img src="https://www.zhaoxiedu.net/static/imgs/companyInfo/Logo2.png" alt="朝夕教育">
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>row 1, cell 1</th>
+            <th>row 1, cell 2</th>
+        </tr>
+        <tr>
+            <td>row 2, cell 1</td>
+            <td>row 2, cell 2</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>row 1, cell 1</td>
+            <td>row 1, cell 2</td>
+        </tr>
+        <tr>
+            <td>row 2, cell 1</td>
+            <td>row 2, cell 2</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h4>横跨两列的单元格：</h4>
+    <table border="1">
+        <tr>
+            <th>姓名</th>
+            <th colspan="2">电话</th>
+            <!-- <th>电话</th> -->
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td rowspan="2">555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+        <tr>
+            <td>Tina</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+
+    <h4>横跨两行的单元格：</h4>
+    <table border="1">
+        <tr>
+            <th>姓名</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">电话</th>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h4>cellpadding</h4>
+    <table border="10" cellpadding="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+
+    <h4> cellspacing</h4>
+    <table border="10" cellspacing="10">
+        <tr>
+            <td>First</td>
+            <td>Row</td>
+        </tr>
+        <tr>
+            <td>Second</td>
+            <td>Row</td>
+        </tr>
+    </table>
+    <hr>
+    <table width="400" border="1">
+        <tr>
+            <th align="left">消费项目....</th>
+            <th align="right">一月</th>
+            <th align="right">二月</th>
+        </tr>
+        <tr>
+            <td align="left">衣服</td>
+            <td align="right">$241.10</td>
+            <td align="right">$50.20</td>
+        </tr>
+        <tr>
+            <td align="left">化妆品</td>
+            <td align="right">$30.00</td>
+            <td align="right">$44.45</td>
+        </tr>
+        <tr>
+            <td align="left">食物</td>
+            <td align="right">$730.40</td>
+            <td align="right">$650.00</td>
+        </tr>
+        <tr>
+            <th align="left">总计</th>
+            <th align="right">$1001.50</th>
+            <th align="right">$744.65</th>
+        </tr>
+    </table>
+
+    <hr>
+    <table width="400" border="1">
+        <thead>
+            <tr>
+                <th align="left">消费项目....</th>
+                <th align="right">一月</th>
+                <th align="right">二月</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="left">衣服</td>
+                <td align="right">$241.10</td>
+                <td align="right">$50.20</td>
+            </tr>
+            <tr>
+                <td align="left">化妆品</td>
+                <td align="right">$30.00</td>
+                <td align="right">$44.45</td>
+            </tr>
+            <tr>
+                <td align="left">食物</td>
+                <td align="right">$730.40</td>
+                <td align="right">$650.00</td>
+            </tr>
+        </tbody>
+        <tr>
+            <th align="left">总计</th>
+            <th align="right">$1001.50</th>
+            <th align="right">$744.65</th>
+        </tr>
+    </table>
+    <hr>
+    <ol type="A">
+        <li>内容1</li>
+        <li>内容2</li>
+        <li>内容3</li>
+        <li>内容4</li>
+        <li>内容5</li>
+    </ol>
+    <!-- **type**: disc | circle | square -->
+    <ul type="circle">
+        <li>内容1</li>
+        <li>内容2</li>
+    </ul>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink1</dd>
+        <dd>Black hot drink2</dd>
+        <dd>Black hot drink3</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+        </dl>
+
+
+        <br>
+        <div>这是一个盒子</div>
+
+        <span>这是一个span标签</span>
+        这不是一个span标签
+        <hr>
+
+        <form action="提交地址" method="get">
+            <!-- username:Tina -->
+            账号: <input onblur="alert(1)" maxlength="3" type="text" name="username"><br>
+            密码: <input disabled type="password" name="pwd"><br>
+            性别：<input type="radio" name="sex" value="1">男
+                  <input type="radio" name="sex" value="2">女<br>
+            爱好：<input type="checkbox" name="type" value="Bike">篮球
+                  <input type="checkbox" name="type" value="Car">足球<br>
+            选型： <select name="cars">
+                    <option selected value="1">选项1</option>
+                    <option value="2">选项2</option>
+                    <option value="3">选项3</option>
+                    <option value="4">选项4</option>
+                    </select>
+                    <br>
+                    <textarea name="message" rows="10" cols="30">
+                        这是一个文本域
+                        </textarea>
+                        <br>
+                  <input type="submit" value="提交">
+                  <button type="button">提交</button>
+        </form>
+
+        <hr>
+        <iframe width="80%" height="400"  src="https://www.baidu.com/"></iframe>
+</body>
+
+</html>
